@@ -136,7 +136,7 @@ export const AnalyticsComponent: React.FC<AnalyticsProps> = ({
       script.onload = () => {
         window.google.charts.load('current', {
           packages: ['corechart', 'geochart', 'bar'],
-          mapsApiKey: 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+          mapsApiKey: 'Replace With Your Maps API KEY'
         });
         window.google.charts.setOnLoadCallback(() => {
           setGoogleChartsLoaded(true);
